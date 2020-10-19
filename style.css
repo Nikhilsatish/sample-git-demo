@@ -1,0 +1,150 @@
+/* Small devices (landscape phones, 576px and up) */
+/* @media (min-width: 576px) { ... } */
+
+/* Medium devices (tablets, 768px and up) */
+/* @media (min-width: 768px) { ... } */
+
+/* Large devices (desktops, 992px and up) */
+/* @media (min-width: 992px) { ... } */
+
+/* Extra large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) { ... } */
+/* 
+.wrapper {
+    position: relative;
+}
+
+
+.first-content {
+    position: fixed;
+    width: 100%;
+    float: left;
+}
+
+.second-content {
+
+}
+
+#header {
+    color: black;
+    font-size: 22px;
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 20px;
+    width: 100%;
+}
+
+
+#nav {
+    font-size: larger;
+    background-color: rgba(31, 30, 29, 0.171);
+    padding: 15px;
+    width: 100%;
+    overflow: hidden;
+    background-color: teal;
+}
+ #nav  a {
+     float: left;
+     color: black;
+     padding: 10px;
+     text-decoration: none;
+ }
+ #nav a:hover {
+     background-color: gray;
+ }
+
+
+.sidenav {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1; */
+/* position: fixed; */
+/* height: 600px;
+    overflow: auto;
+
+  }
+  .sidenav a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+  .sidenav a.active {
+    background-color: rgb(240, 208, 29);
+    color: black;
+  }
+  .sidenav a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  } */
+
+/* .content {
+    margin-left: 20% ;
+    margin-top: 10%;
+} */
+
+/* 
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:rgb(240, 208, 29);
+    color: black;
+    text-align: center;
+ } */
+
+#header {
+  color: black;
+  font-size: 22px;
+  text-align: center;
+  background-color: whitesmoke;
+  padding: 20px;
+  width: 100%;
+}
+
+#nav {
+  font-size: larger;
+  background-color: rgba(31, 30, 29, 0.171);
+  padding: 15px;
+  width: 100%;
+  overflow: hidden;
+  background-color: teal;
+}
+
+.sidenav {
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #f1f1f1;
+  float: left;
+  /* position: fixed; */
+  height: 100%;
+  overflow: auto;
+}
+
+.sidenav a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  height: 100%;
+}
+
+.second-content {
+  width: 75%;
+  background-color: wheat;
+  /* height: 100%; */
+  overflow: hidden;
+}
+
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(240, 208, 29);
+  color: black;
+  text-align: center;
+}
